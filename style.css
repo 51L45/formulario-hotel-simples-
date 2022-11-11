@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    text-shadow: 2px 2px 2px #fff;
+    font-family:'Verdana, Tahoma, sans-serif';
+    color:#277075;
+    margin-left: 7%;
+    margin-bottom: 1em;
+}
+#subtitulo{
+    text-shadow: 2px 2px 2px #fff;
+    font-family:'Verdana, Tahoma, sans-serif';
+    color: #277075;
+    margin-left: 2%;
+}
+fieldset{
+    
+    border:0;
+}
+
+.body{
+    font-size:  14px;
+    font-family:'sans-serif';
+    background-image: url(https://i.ibb.co/gb1Ym8Q/Milos.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center center;
+    font-size: 1em;
+    color:hsl(163, 70%, 27%);
+    margin-left: 2%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.navbar {
+    
+    margin-right: 2%;
+    border-radius: 5px;
+}
+input, select, textarea,button{
+    border-radius: 5px;
+
+}
+.textp{
+    font-size:  18px;
+}
+.campo{
+    margin-bottom: 1em;
+
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color:hsl(163, 70%, 27%);
+    display: block;
+}
+.campo input[type="text"], .campo input[type="email"],.campo input[type="phone"],
+.campo input[type="addr"],.campo input[type="numbering"],.campo input[type="district"],
+.campo input[type="city"],.campo input[type="zipcode"],.campo select, .campo textarea, .campo option{
+    font-size:  18px;
+    margin-top: 4px;
+    margin-left: 0.2em;
+    padding: 0.2em;
+    border: 1px solid #b0d9c8;
+    box-shadow: 2px 2px 2px hsl(163, 70%, 27%);
+    font-size:  14px;
+}
+.campo select option{
+    font-size:  14px;
+    padding-right: 1em;
+    
+}
+.campo input:focus,.campo select:focus, .campo textarea:focus{
+    background-color: #b0d9c8;
+}
+.botao{
+    font-size: 1.0em;
+    background-color: #3f7f53;
+    border:0;
+    margin-top:3em;
+    margin-bottom: 1em;
+    color: #fff;
+    padding:0.2em 0.6em;
+    box-shadow: 2px 2px 2px hsl(163, 70%, 27%);
+    text-shadow: 1px 1px 1px hsl(163, 72%, 33%);
+    position:relative;
+    top: 68%;
+    left: 40%;
+    margin-left: 4px;
+    transform: translate(-50%,-50%);
+}
+.botao:hover{
+    background:#94c8b4;
+    box-shadow: 2px 2px 2px hsl(163, 70%, 27%);
+    text-shadow:none;
+}
+.grupo{
+    background-color:  #ffffff10;
+    border:2px solid #ffffff30;
+    margin-right: 700px;
+    backdrop-filter: blur(10px);
+    border-radius:0.5em;
+}
+.footer{
+    margin-bottom: -1%;
+    margin-left: -2%; 
+    background-color: #6cc0b1;
+
+}
+.textft{
+    text-align: center;
+}
+ 
+/*js*/
+.span-required{
+    color: var(--color-red);
+    font-size: 12px;
+    display:none;
+}
